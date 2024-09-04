@@ -1,0 +1,127 @@
+
+
+.container{
+    display:flex;
+    justify-content: row;
+    gap:5px;
+    padding-bottom: 15px;
+    
+
+
+}
+.container2{
+    display: flex;
+    justify-content: row;
+    gap:5px;
+    padding-bottom: 15px;
+}
+
+.container3{
+    display: flex;
+    justify-content: row;
+    gap:5px;
+    padding-bottom: 15px;
+}
+.container4{
+    display: flex;
+    justify-content: row;
+    gap:5px;
+    padding-bottom: 15px;
+}
+.one1{
+    background-color:rgb(179, 255, 0);
+    width: 53px;
+    height: 100px;
+    border: 4px solid black;
+}
+.one2{
+    background-color:rgb(179, 255, 0);
+    margin-left: 70px;
+    width: 500px;
+    height: 100px;
+    border: 4px solid black;
+}
+.one3{
+    background-color:rgb(179, 255, 0);
+    margin-left: 70px;
+    width: 53px;
+    height: 100px;
+    border: 4px solid black;
+}
+.one4{
+    background-color:rgb(179, 255, 0);
+    width: 500px;
+    height: 100px;
+    border: 4px solid black;
+}
+
+.one5{
+    background-color:rgb(179, 255, 0);
+    width: 53px;
+    margin-left: 25px;
+    height: 100px;
+    border: 4px solid black;
+}
+.one6{
+    background-color:rgb(179, 255, 0);
+    margin-left: 25px;
+    width: 141px;
+    height: 100px;
+    border: 4px solid black;
+}
+.one7{
+    background-color:rgb(179, 255, 0);
+    width: 53px;
+    height: 100px;
+    border: 4px solid black;
+}
+.one8{
+    background-color:rgb(179, 255, 0);
+    margin-left: 25px;
+    width: 141px;
+    height: 100px;
+    border: 4px solid black;
+}
+.one9{
+    background-color:rgb(179, 255, 0);
+    margin-left: 25px;
+    width: 500px;
+    height: 100px;
+    border: 4px solid black;
+}
+.one10{
+    background-color:rgb(179, 255, 0);
+    width: 150px;
+    height: 100px;
+    border: 4px solid black;
+}
+.one11{
+    background-color:rgb(179, 255, 0);
+    margin-left: 33px;
+    width: 68px;
+    height: 100px;
+    border: 4px solid black;
+}
+.one12{
+    background-color:rgb(179, 255, 0);
+    margin-left: 33px;
+    width: 150px;
+    height: 100px;
+    border: 4px solid black;
+}
+.one13{
+    background-color:rgb(179, 255, 0);
+    margin-left: 33px;
+    width: 68px;
+    height: 100px;
+    border: 4px solid black;
+}
+.one14{
+    background-color:rgb(179, 255, 0);
+    margin-left: 33px;
+    width: 150px;
+    height: 100px;
+    border: 4px solid black;
+}
+
+

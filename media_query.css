@@ -1,0 +1,421 @@
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+@media(max-width:400px){
+    .main{
+        background-color: red;
+        
+        
+    }
+    span{
+    
+        display: none;
+    }
+   
+    
+    
+}
+
+/* flex */
+.container{
+    display: flex;
+    gap:30px;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+}
+.one{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    /* order: 10; */
+    align-content: center;
+    
+}
+.two{
+    background-color: rgb(255, 0, 149);
+    width: 100px;
+    height: 100px;
+}
+.three{
+    background-color: rgb(17, 0, 255);
+    width: 100px;
+    height: 100px;
+}
+.four{
+    background-color: rgb(255, 238, 0);
+    width: 100px;
+    height: 100px;
+}
+.five{
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+}
+/* grid start */
+.container1{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    padding: 2px;
+}
+.one1{
+    background-color: aqua;
+
+}
+.two1{
+    background-color: rgb(255, 0, 21);
+
+}
+.three1{
+    background-color: rgb(76, 0, 255);
+
+}
+.four1{
+    background-color: rgb(255, 0, 140);
+
+}
+.five1{
+    background-color: rgb(0, 255, 98);
+
+}
+.six1{
+    background-color: rgb(255, 123, 0);
+
+}
+
+
+
+/* grid with fr */
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    padding: 2px;
+    /* gap: 2px; */
+    /* grid-column-gap: 2px;
+    grid-row-gap: 5px; */
+    grid-gap: 5px;
+}
+.one2{
+    background-color: aqua;
+
+}
+.two2{
+    background-color: rgb(255, 0, 22);
+
+}
+.three2{
+    background-color: rgb(76, 0, 255);
+
+}
+.four2{
+    background-color: rgb(255, 0, 240);
+
+}
+.five2{
+    background-color: rgb(0, 255, 98);
+
+}
+.six2{
+    background-color: rgb(255, 123, 0);
+
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 400px);
+    grid-auto-rows: 200px;
+    padding: 3px;
+    /* gap: 3px; */
+    /* grid-column-gap: 3px;
+    grid-row-gap: 5px; */
+    grid-gap: 5px;
+}
+.one3{
+    background-color: aqua;
+
+}
+.two3{
+    background-color: rgb(355, 0, 3);
+
+}
+.three3{
+    background-color: rgb(76, 0, 355);
+
+}
+.four3{
+    background-color: rgb(355, 0, 340);
+
+}
+.five3{
+    background-color: rgb(0, 355, 98);
+
+}
+.six3{
+    background-color: rgb(355, 133, 0);
+
+}
+/* chess board start */
+.chess{
+    display: grid;
+    grid-template-columns: repeat(8, 75px);
+    grid-template-rows: repeat(8, 75px);
+    border: 5px solid green;
+    grid-gap: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+ 
+    
+}
+.cell1{
+    background-color: wheat;
+
+}
+.cell2{
+    background-color: black;
+}
+.cell3{
+    background-color: wheat;
+
+}
+.cell4{
+    background-color: black;
+}
+.cell5{
+    background-color: wheat;
+
+}
+.cell6{
+    background-color: black;
+}
+.cell7{
+    background-color: wheat;
+
+}
+.cell8{
+    background-color: black;
+}
+
+
+
+.cell9{
+    background-color: black;
+
+}
+.cell10{
+    background-color: wheat;
+}
+.cell11{
+    background-color: black;
+
+}
+.cell12{
+    background-color: wheat;
+}
+.cell13{
+    background-color: black;
+
+}
+.cell14{
+    background-color: wheat;
+}
+.cell15{
+    background-color: black;
+
+}
+.cell16{
+    background-color: wheat;
+}
+
+
+.cell17{
+    background-color: wheat;
+
+}
+.cell18{
+    background-color: black;
+}
+.cell19{
+    background-color: wheat;
+
+}
+.cell20{
+    background-color: black;
+}
+.cell21{
+    background-color: wheat;
+
+}
+.cell22{
+    background-color: black;
+}
+.cell23{
+    background-color: wheat;
+
+}
+.cell24{
+    background-color: black;
+}
+
+
+
+.cell25{
+    background-color: black;
+
+}
+.cell26{
+    background-color: wheat;
+}
+.cell27{
+    background-color: black;
+
+}
+.cell28{
+    background-color: wheat;
+}
+.cell29{
+    background-color: black;
+
+}
+.cell30{
+    background-color: wheat;
+}
+.cell31{
+    background-color: black;
+
+}
+.cell32{
+    background-color: wheat;
+}
+
+
+
+.cell33{
+    background-color: wheat;
+
+}
+.cell34{
+    background-color: black;
+}
+.cell35{
+    background-color: wheat;
+
+}
+.cell36{
+    background-color: black;
+}
+.cell37{
+    background-color: wheat;
+
+}
+.cell38{
+    background-color: black;
+}
+.cell39{
+    background-color: wheat;
+
+}
+
+.cell40{
+    background-color: black;
+}
+
+
+.cell41{
+    background-color: black;
+
+}
+.cell42{
+    background-color: wheat;
+}
+.cell43{
+    background-color: black;
+
+}
+.cell44{
+    background-color: wheat;
+}
+.cell45{
+    background-color: black;
+
+}
+.cell46{
+    background-color: wheat;
+}
+.cell47{
+    background-color: black;
+
+}
+.cell48{
+    background-color: wheat;
+}
+
+
+
+.cell49{
+    background-color: wheat;
+
+}
+.cell50{
+    background-color: black;
+}
+.cell51{
+    background-color: wheat;
+
+}
+.cell52{
+    background-color: black;
+}
+.cell53{
+    background-color: wheat;
+
+}
+.cell54{
+    background-color: black;
+}
+.cell55{
+    background-color: wheat;
+
+}
+.cell56{
+    background-color: black;
+}
+
+
+
+.cell57{
+    background-color: black;
+
+}
+.cell58{
+    background-color: wheat;
+}
+.cell59{
+    background-color: black;
+
+}
+.cell60{
+    background-color: wheat;
+}
+.cell61{
+    background-color: black;
+
+}
+.cell62{
+    background-color: wheat;
+}
+.cell63{
+    background-color: black;
+
+}
+.cell64{
+    background-color: wheat;
+}
+
+
+/* chess board end */
